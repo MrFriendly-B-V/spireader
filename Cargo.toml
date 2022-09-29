@@ -1,0 +1,16 @@
+[package]
+name = "spireader"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+spidev = "0.5.1"
+tracing = "0.1.36"
+
+[dependencies.clap]
+version = "4.0.2"
+features = ["derive"]
+
+[dependencies.tracing-subscriber]
+version = "0.3.15"
+features = ["env-filter"]
